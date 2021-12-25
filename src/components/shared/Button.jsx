@@ -1,8 +1,14 @@
 import PropTypes from "prop-types";
 
-function Button({ teks }) {
+function Button({ teks, large = false, dark = false }) {
   return (
-    <div className="bg-[#3281FF] font-semibold hover:opacity-70 cursor-pointer text-white py-2 px-3 rounded-xl self-center ">
+    <div
+      className={`transition ease-linear font-semibold hover:opacity-70 cursor-pointer rounded-xl self-center ${
+        large ? "py-3 px-5 text-lg" : "py-2 px-3"
+      } ${
+        dark ? "bg-[#F2F2F2] text-[#3281FF]" : "bg-[#3281FF] text-[#F2F2F2]"
+      }`}
+    >
       {teks}
     </div>
   );
@@ -10,6 +16,8 @@ function Button({ teks }) {
 
 Button.propTypes = {
   teks: PropTypes.string,
+  large: PropTypes.bool,
+  dark: PropTypes.bool,
 };
 
 export default Button;

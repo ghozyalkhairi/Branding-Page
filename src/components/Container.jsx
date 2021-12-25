@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 function Container({ children }) {
-  return <div className="container w-[80%] mx-auto">{children}</div>;
+  return <div className="container w-[80%] mx-auto ">{children}</div>;
 }
 
 Container.propTypes = {
