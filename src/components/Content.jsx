@@ -3,7 +3,6 @@ import Container from "./Container";
 function Content({ children }) {
   return (
     <Container>
-      {" "}
       <div className="flex flex-col gap-[3rem] ">{children}</div>
     </Container>
   );
