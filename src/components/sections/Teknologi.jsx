@@ -6,7 +6,7 @@ import logoPostman from "../images/postman.png";
 
 function Teknologi() {
   return (
-    <section className="flex flex-col gap-[2rem] font-semibold pt-[3rem] pb-[5rem]">
+    <section className="flex flex-col gap-[2rem] font-semibold pt-[2rem]">
       <div className="flex flex-col items-center gap-[1rem]">
         <h2 className="text-4xl text-[#3281FF]">Technology & Tools</h2>
         <h3 className="text-[#B3CEF8] text-2xl">

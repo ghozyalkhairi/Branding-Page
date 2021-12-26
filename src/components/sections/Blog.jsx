@@ -2,7 +2,7 @@ import BlogItem from "./BlogItem";
 
 function Blog() {
   return (
-    <section className="flex flex-col gap-[3rem] py-[6rem]">
+    <section className="flex flex-col gap-[3rem] ">
       <div className="flex flex-col items-center gap-[2rem] font-semibold">
         <h2 className="text-4xl text-[#3281FF]">Blogs</h2>
         <h3 className="text-[#B3CEF8] text-2xl">
