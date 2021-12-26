@@ -4,7 +4,7 @@ import ThemePicker from "./ThemePicker";
 function NavBar() {
   return (
     <nav className="flex justify-between items-center ">
-      <div className="text-[#3281FF] font-bold text-2xl ">Zaid.</div>
+      <div className="text-[#3281FF] font-bold text-3xl ">Zaid.</div>
       <div className="flex flex-row gap-[3rem] items-center ">
         <a className="hover:opacity-70" href="#">
           Home

@@ -6,7 +6,7 @@ import logoJCO from "../images/jco.png";
 
 function SectionDua() {
   return (
-    <section className="flex justify-between">
+    <section className="flex justify-between py-[3rem]">
       <img src={logoKFC} alt="kfc" />
       <img src={logoStar} alt="starbucks" />
       <img src={logoAqua} alt="aqua" />

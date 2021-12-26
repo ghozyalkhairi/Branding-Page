@@ -8,7 +8,7 @@ function Body({ children }) {
     <div
       className={`transition ease-linear h-full ${
         theme === "light"
-          ? "bg-[#F2F2F2] text-[#353535]"
+          ? "bg-white] text-[#353535]"
           : "bg-[#353535] text-[#F2F2F2]"
       }`}
     >

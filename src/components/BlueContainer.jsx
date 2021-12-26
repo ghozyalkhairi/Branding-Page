@@ -6,10 +6,10 @@ function BlueContainer({ children }) {
   const { theme } = useContext(ThemeContext);
   return (
     <section
-      className={`transition ease-linear bg-[#B3CEF8] text-[#353535] py-[3rem] ${
+      className={`transition ease-linear py-[3rem] ${
         theme === "light"
           ? "bg-[#B3CEF8] text-[#353535]"
-          : "bg-[#4281FF] text-[#F2F2F2]"
+          : "bg-[#3281FF] text-[#F2F2F2]"
       }`}
     >
       <div className="container w-[80%] mx-auto">{children}</div>

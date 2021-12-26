@@ -8,6 +8,9 @@ import Kontak from "./components/Kontak";
 import SectionSatu from "./components/sections/SectionSatu";
 import SectionDua from "./components/sections/SectionDua";
 import SectionTiga from "./components/sections/SectionTiga";
+import Blog from "./components/sections/Blog";
+import Teknologi from "./components/sections/Teknologi";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +26,13 @@ function App() {
         </Container>
         <BlueContainer>
           <Kontak />
+        </BlueContainer>
+        <Container>
+          <Blog />
+          <Teknologi />
+        </Container>
+        <BlueContainer>
+          <Footer />
         </BlueContainer>
       </Body>
     </ThemeProvider>

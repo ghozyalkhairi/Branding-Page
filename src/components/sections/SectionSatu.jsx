@@ -3,7 +3,7 @@ import gambarHero from "../images/hero.png";
 
 function SectionSatu() {
   return (
-    <div className="flex pt-[4rem]">
+    <div className="flex ">
       <div className="flex flex-col justify-center gap-6">
         <h1 className="text-2xl font-semibold">
           Hai, nama saya Zaid seorang Web Developer
