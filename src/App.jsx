@@ -16,7 +16,7 @@ function App() {
   return (
     <ThemeProvider>
       <Body>
-        <Container>
+        <Container full>
           <Header />
           <Content>
             <SectionSatu />
@@ -27,10 +27,10 @@ function App() {
         <BlueContainer>
           <Kontak />
         </BlueContainer>
-        <Container>
+        <Content>
           <Blog />
           <Teknologi />
-        </Container>
+        </Content>
         <BlueContainer>
           <Footer />
         </BlueContainer>

@@ -1,6 +1,12 @@
 import PropTypes from "prop-types";
+import Container from "./Container";
 function Content({ children }) {
-  return <div className="flex flex-col gap-[3rem] py-[4rem]">{children}</div>;
+  return (
+    <Container>
+      {" "}
+      <div className="flex flex-col gap-[3rem] ">{children}</div>
+    </Container>
+  );
 }
 
 Content.propTypes = { children: PropTypes.node.isRequired };

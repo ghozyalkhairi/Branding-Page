@@ -1,11 +1,16 @@
 import PropTypes from "prop-types";
 
-function Container({ children }) {
-  return <div className="container w-[80%] mx-auto ">{children}</div>;
+function Container({ children, full = false }) {
+  return (
+    <div className={`mx-auto ${full ? "w-[100%]" : "container w-[80%]"} `}>
+      {children}
+    </div>
+  );
 }
 
 Container.propTypes = {
   children: PropTypes.node.isRequired,
+  full: PropTypes.bool,
 };
 
 export default Container;
